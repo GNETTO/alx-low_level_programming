@@ -6,7 +6,7 @@
 /**
  * main - simple functio,
  * Description :for learning
- * Return : Always  0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
