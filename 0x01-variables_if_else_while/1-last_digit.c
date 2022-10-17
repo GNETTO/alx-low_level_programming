@@ -18,7 +18,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is greater than 5\n", n);
-	elsee if (n == 0)
+	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
 		printf("%d is less than 5\n", n);
