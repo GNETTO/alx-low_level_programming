@@ -3,10 +3,10 @@
 #include <time.h>
 
 
-/*
+/**
  * main - simple functio,
  * Description :for learning
- * Return : return 0 (success)
+ * Return : Always  0 (success)
  */
 
 int main(void)
