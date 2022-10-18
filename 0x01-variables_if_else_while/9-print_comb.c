@@ -12,17 +12,14 @@ int main(void)
 
 	for (row = 48; row <= 57; row++)
 	{
-		for (col = 48; col <= 57; col++)
+
+		putchar(row);
+		if (row != 57 || col != 57)
 		{
-			putchar(row);
-			putchar(col);
-			if (row != 57 || col != 57)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
