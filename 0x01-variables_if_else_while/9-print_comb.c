@@ -23,6 +23,6 @@ int main(void)
 			}
 		}
 	}
-	print('\n');
+	print("\n");
 	return (0);
 }
