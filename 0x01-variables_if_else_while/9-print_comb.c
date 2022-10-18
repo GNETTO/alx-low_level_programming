@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(row);
 			putchar(col);
-			if (row == 57 || col == 57)
+			if (row != 57 || col != 57)
 			{
 				putchar(',');
 				putchar(' ');
