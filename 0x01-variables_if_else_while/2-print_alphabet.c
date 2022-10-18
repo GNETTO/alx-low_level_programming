@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -
- * Deascription: printing alphabet
+ * main - my main function
+ * Description: printing alphabet
  * Return: return 0 (Success)
  */
 
