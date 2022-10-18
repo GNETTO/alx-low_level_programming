@@ -12,7 +12,7 @@ int main(void)
 
 	for (row = 48; row <= 57; row++)
 	{
-		for (col = 48; col <= 57; col++)
+		for (col = row + 1; col <= 57; col++)
 		{
 			putchar(row);
 			putchar(col);
