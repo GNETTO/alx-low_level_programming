@@ -1,12 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - some explain
+ * print_last_digit - some explain
+ * @n: number to enter
  * Description: some for
- * Return: return 0 always
+ * Return: returnlas digit of a nmber
  */
 
-int main(void)
+int print_last_digit(int n)
 {
-	return  (0);
+	int a;
+
+	if (n < 0)
+		n = -n;
+	a = n % 10;
+
+	if (a < 0)
+		a = -a
+
+	_putchar(a + '0');
+
+	return (a);
 }
