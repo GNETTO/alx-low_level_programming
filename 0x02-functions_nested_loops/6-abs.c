@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - some explain
+ * _abs - absolute value
+ * @n: value entered
  * Description: some for
- * Return: return 0 always
+ * Return: return absolute value of a number
  */
 
-int main(void)
+int _abs(int n)
 {
-	return  (0);
+	return (abs(n));
 }
