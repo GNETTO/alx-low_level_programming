@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - some explain
+ * add - some explain
+ * @n: first int
+ * @m: second int
  * Description: some for
- * Return: return 0 always
+ * Return: return m +n
  */
 
-int main(void)
+int add(int n, int m)
 {
-	return  (0);
+	return  (n + m);
 }

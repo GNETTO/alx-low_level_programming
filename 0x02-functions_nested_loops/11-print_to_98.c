@@ -1,12 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - some explain
+ * print_to_98 - some explain
+ * @n: entered number
  * Description: some for
  * Return: return 0 always
  */
 
-int main(void)
+void print_to_98(int n)
 {
-	return  (0);
+	int i = n;
+
+
+	while (i <= 98)
+	{
+		_putchar(i);
+		i++;
+	}
+	_putchar('\n');
 }
