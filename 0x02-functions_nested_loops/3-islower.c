@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - some explain
- * Description: some for
- * Return: return 0 always
+ * _islower - some explain
+ * @c: character to enter
+ * Return: return 1 if true , return 0 if false
  */
 
-int main(void)
+int _islower(int c)
 {
-	return  (0);
+	return (c >= 'a' && c <= 'z');
 }
