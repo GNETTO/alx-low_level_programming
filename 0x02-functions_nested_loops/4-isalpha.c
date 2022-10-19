@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - some explain
+ * _isalpha - check for alphabetic
+ * @c: character entered
  * Description: some for
- * Return: return 0 always
+ * Return: return 1 if alphat or 0 if not
  */
 
-int main(void)
+int _isalpha(int c)
 {
-	return  (0);
+	return ((c >= 'z' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
