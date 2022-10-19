@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	__printchar("__printch");
+	_putchar("_printch");
 	return  (0);
 }
