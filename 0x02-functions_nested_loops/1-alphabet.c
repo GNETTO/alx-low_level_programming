@@ -1,12 +1,22 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - some explain
- * Description: some for
+ * print_alphabet - some explain
+ * Description: printing alphabet
  * Return: return 0 always
  */
 
-int main(void)
+int print_alphabet(void)
 {
-	return  (0);
+	char ch;
+
+	ch = 'a';
+
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n');
 }
