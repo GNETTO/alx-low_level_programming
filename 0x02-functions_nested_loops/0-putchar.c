@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - some explain
@@ -8,5 +9,6 @@
 
 int main(void)
 {
+	__printchar("__printch");
 	return  (0);
 }
