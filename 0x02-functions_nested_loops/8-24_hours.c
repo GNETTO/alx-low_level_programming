@@ -1,12 +1,30 @@
-#include <stdio.h>
+#include "main.h"
+
 
 /**
- * main - some explain
+ * jack_bauer - some explain
  * Description: some for
  * Return: return 0 always
  */
 
-int main(void)
+void jack_bauer(void)
 {
-	return  (0);
+	int i, j;
+
+	i = 0;
+	while (i < 24)
+	{
+		j = 0;
+		while (j < 60)
+		{
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
+		}
+		i++;
+	}
 }
