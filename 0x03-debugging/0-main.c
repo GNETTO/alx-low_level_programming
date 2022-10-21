@@ -1,14 +1,23 @@
-#include <assert.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
 
 /**
- * main - testing
- * Return: return 0
+ * main - simple functio,
+ * Description :for learning
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
-	assert(positive_or_negative(0) == 0);
-	rreturn (0);
+
+	int n;
+
+	i = 0 ;
+	positif_or_negative(i);
+
+	return (0);
+
 }
+
