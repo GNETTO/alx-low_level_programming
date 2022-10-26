@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers
- * Return: return 0 always
+ * print_most_numbers - prints numbers
+ * Return : return a new line
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
