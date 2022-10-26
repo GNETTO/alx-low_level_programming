@@ -4,10 +4,11 @@
  * mul - make maultiplication of two numberss
  * @a : int
  * @b : int
- * Return : return always a * b
+ * Return: return always 0
  */
 
 int mul(int a, int b)
 {
-	return (a * b);
+	_putchar(a * b);
+	return (0);
 }
