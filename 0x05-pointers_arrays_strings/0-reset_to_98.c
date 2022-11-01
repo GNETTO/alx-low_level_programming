@@ -2,11 +2,11 @@
 
 /**
  * reset_to_98 - take a pointer
- * @n : pointer to int
+ * @p : pointer to int
  * Return : void always
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int *p)
 {
-	printf("%d", *n);
+	n = *p;		
 }
